@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" 
     content="width=device-width, initial-scale=1.0, maximus-scale=5.0, minimum-scale=1.0">
-    <title>Transitions and Animations</title>
+    <title>SegWay +</title>
 
     <link rel="stylesheet" href="index.css">
 </head>
@@ -23,16 +23,38 @@
 
               <ul class="header__right">
                 <li class="header__right-item"><img class="header__right-link" src="./images/basket.png" alt="basket"></li>
-                <li class="header__right-item"><a class="header__right-link" href="https://www.instagram.com/"><img src="./images/instagram.png" alt="instagram"></li>
+                <li class="header__right-item"><a class="header__right-link" href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="instagram"></a></li>
                 <li class="header__right-item"><a class="header__right-link" href="tel:+18888888888">+1(888)888-88-88</a></li>
               </ul>
             </nav>
 
             <div class="header__logo__owner">
               <div class="header__logo">
+                <div class="burger__menu">
+                  <input id="menu__toggle" type="checkbox">
+  
+                  <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                  </label>
+  
+                  <ul class="menu__box">
+                    <li class="menu__item"><a class="menu__link" href="#">REVIEWS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">SHIPPING AND PAYMENT</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">WHOLESALE</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">CONTACTS</a></li>
+                  </ul>
+                </div>
+
                 <div class="logo">
                   <img src="./images/logo.png" alt="logo">
                 </div>
+
+                <ul class="header__right__2">
+                  <li class="header__right__item"><a href="tel:+18888888888"><img class="header__right__link" src="./images/phone_grey.png" alt="phone_nomber"></a></li>
+                  <li class="header__right__item"><a href="https://www.instagram.com/" target="_blank"><img class="header__right__link" src="./images/instagram_grey.png" alt="instagram"></a></li>
+                  <li class="header__right__item"><img class="header__right__link" src="./images/basket_grey.png" alt="basket"></li>
+                </ul>
 
                 <div class="header__owner">
                   <div class="owner__avatar">
@@ -49,7 +71,7 @@
         </header>
 
         <main class="main">
-            <div class="catalog__background-top">
+            <section class="catalog__background-top">
                 <div class="catalog__scooter-top">
                   <div class="scooter ks__e22">
                     <img class="scooter__image" src="./images/scooters/scooter ks__e22.png" alt="scooter ks__e22">KS E22
@@ -78,10 +100,12 @@
                   <div class="scooter ks__max2">
                     <img class="scooter__image" src="./images/scooters/scooter ks__max2.png" alt="scooter ks__max">KS MAX
                   </div>
-                </div>
-            </div>
 
-            <div class="catalog__background-bottom">
+                  <button class="catalog__background__btn"><img src="./images/Bottom_right_small.png" alt="Bottom_right_small"></button>
+                </div>
+            </section>
+
+            <section class="catalog__background-bottom">
               <div class="catalog__scooter-bottom">
                 <div class="scooter ks__es2">
                   <img class="scooter__image" src="./images/scooters/scooter ks__es2.png" alt="scooter ks__es2">KS ES2
@@ -111,13 +135,13 @@
                   <img class="scooter__image" src="./images/scooters/scooter accessories.png" alt="scooter accessories">ACCESSORIES
                 </div>
               </div>
-            </div>
+            </section>
 
-            <div class="free__shipping">
+            <section class="free__shipping">
               FREE 1 DAY SHIPPING WITHIN CALIFORNIA.
-            </div>
+            </section>
 
-            <div class="segway__ninebot">
+            <section class="segway__ninebot">
               <div  class="segway__ninebot-left">
                 <div class="in__stock">In stock</div>
 
@@ -150,15 +174,15 @@
                     </div>
 
                     <div class="protective__gear-image">
-                      <img src="./images/Protective Gear.png">
+                      <img src="./images/Protective Gear.png" alt="Protective Gear">
                     </div>
                   </div>
 
                   <div class="buy__add">
                     <button class="btn buy">BUY IT NOW</button>
+
                     <button class="btn add">ADD TO CART</button>
                   </div>
-
                 </div>
 
                 <div class="segway__ninebot__text">
@@ -169,34 +193,34 @@
                 </div>
 
                 <div class="payment__methods">
-                  <img src="./images/payment methods/amex.png" alt="">
-                  <img src="./images/payment methods/pay.png" alt="">
-                  <img src="./images/payment methods/b yellow.png" alt="">
-                  <img src="./images/payment methods/b green.png" alt="">
-                  <img src="./images/payment methods/d yellow.png" alt="">
-                  <img src="./images/payment methods/o blue.png" alt="">
-                  <img src="./images/payment methods/discover.png" alt="">
-                  <img src="./images/payment methods/d brown.png" alt="">
-                  <img src="./images/payment methods/diamond.png" alt="">
-                  <img src="./images/payment methods/jsb.png" alt="">
-                  <img src="./images/payment methods/L.png" alt="">
-                  <img src="./images/payment methods/mc.png" alt="">
-                  <img src="./images/payment methods/pp.png" alt="">
-                  <img src="./images/payment methods/$.png" alt="">
-                  <img src="./images/payment methods/v.png" alt="">
-                  <img src="./images/payment methods/visa.png" alt="">
+                  <img src="./images/payment methods/amex.png" alt="payment_methods">
+                  <img src="./images/payment methods/pay.png" alt="payment_methods">
+                  <img src="./images/payment methods/b yellow.png" alt="payment_methods">
+                  <img src="./images/payment methods/b green.png" alt="payment_methods">
+                  <img src="./images/payment methods/d yellow.png" alt="payment_methods">
+                  <img src="./images/payment methods/o blue.png" alt="payment_methods">
+                  <img src="./images/payment methods/discover.png" alt="payment_methods">
+                  <img src="./images/payment methods/d brown.png" alt="payment_methods">
+                  <img src="./images/payment methods/diamond.png" alt="payment_methods">
+                  <img src="./images/payment methods/jsb.png" alt="payment_methods">
+                  <img src="./images/payment methods/L.png" alt="payment_methods">
+                  <img src="./images/payment methods/mc.png" alt="payment_methods">
+                  <img src="./images/payment methods/pp.png" alt="payment_methods">
+                  <img src="./images/payment methods/$.png" alt="payment_methods">
+                  <img src="./images/payment methods/v.png" alt="payment_methods">
+                  <img src="./images/payment methods/visa.png" alt="payment_methods">
                 </div>
               </div>
 
               <div  class="segway__ninebot-image">
                 <div class="slider">
-                  <input class="slider__nav" type="radio" name="slider" title="slide1" checked="checked"/>
-                  <input class="slider__nav" type="radio" name="slider" title="slide2"/>
-                  <input class="slider__nav" type="radio" name="slider" title="slide3"/>
-                  <input class="slider__nav" type="radio" name="slider" title="slide4"/>
+                  <input class="slider__nav" type="radio" name="slider" id="slide__1" title="slide1" checked="checked">
+                  <input class="slider__nav" type="radio" name="slider" id="slide__2" title="slide2">
+                  <input class="slider__nav" type="radio" name="slider" id="slide__3" title="slide3">
+                  <input class="slider__nav" type="radio" name="slider" id="slide__4" title="slide4">
                 
                   <div class="slider__inner">
-                    <div class="slider__contents">
+                    <div class="slider__contents" id="">
                       <div class="ninebot__images">
                         <img class="ninebot__image" src="./images/scooters/maxg30ell.png" alt="maxg 30 ell">
                       </div>
@@ -222,97 +246,105 @@
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="additional__information">
-              <div class="tabs__container">            
-                <div class="tabs">
-                  <div id="tabs__content-1">
-                    <div class="tab__content">
-                      <div class="tab__content-text">
-                        <h3 class="tab__content__text-head">We are in <br>Los Angeles, CA</h3>
-  
-                        <p class="tab__content__text-basic">Free California 1 day shipping.<br>US Free Shipping 3-5 Days</p>
-  
-                      </div>
-  
-                      <div  class="tab__content-image">
-                        <img src="./images/tabs/BlackMap-USA-states.png">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div id="tabs__content-2">
-                    <div class="tab__content">
-                      <div class="tab__content-text">
-                        <h3 class="tab__content__text-head">One year<br>manufacturer's warranty</h3>
-  
-                        <p class="tab__content__text-basic">The basic warranty is 1 year.<br>You can also extend the warranty up to 4 years.</p>
-                      </div>
-  
-                      <div  class="tab__content-image">
-                        <img src="./images/tabs/1_day.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div id="tabs__content-3">
-                    <div class="tab__content">
-                      <div class="tab__content-text">
-                        <h3 class="tab__content__text-head">After sales<br>support</h3>
-  
-                        <p class="tab__content__text-basic">If you have any difficulties with your kickscooter, our specialists will contact you within 15 minutes</p>
-                      </div>
-  
-                      <div  class="tab__content-image">
-                        <img src="./images/tabs/after_sales_support.png">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div id="tabs__content-4">
-                    <div class="tab__content">
-                      <div class="tab__content-text">
-                        <h3 class="tab__content__text-head">Up to 40 miles of range<br> on a single charge</h3>
-  
-                        <p class="tab__content__text-basic">With a range of up to 40 miles, the longest range on the market, and a 20˚uphill climbing angle, the KickScooter MAX allows you to ride from San Francisco Bay Area to Palo Alto on a single charge.</p>
-                      </div>
-  
-                      <div  class="tab__content-image">
-                        <img src="./images/tabs/40_miles.png">
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="tabs__links">
-                    <a href="#tabs__content-1">
-                      <div class="content__image-1"></div>
-                      
-                      <p class="content__text">Delivery within 1 business day</p>
-                    </a>
-
-                    <a href="#tabs__content-2">
-                      <div class="content__image-2"></div>
-                      
-                      <p class="content__text">Basic 1 year warranty</p>
-                    </a>
-
-                    <a href="#tabs__content-3">
-                      <div class="content__image-3"></div>
-                      
-                      <p class="content__text">After Sales Support</p>
-                    </a>
-
-                    <a href="#tabs__content-4">
-                      <div class="content__image-4"></div>
-                      
-                      <p class="content__text">Up to 40 miles per charge</p>
-                    </a>
-                  </div>
-                </div>
+              <div class="segway__ninebot-name2">
+                  SEGWAY NINEBOT KICKSCOOTER MAX
               </div>
-            </div>
+              
+              <div class="in__stock2">In stock</div>
+            </section>
 
-            <div class="packing__list-bg">
+            <section class="additional__information">
+              <div class="tabs__container">
+                  <input type="radio" name="tabs" id="pseudo__btn__1">
+                  <label class="tab__btn" for="pseudo__btn__1">
+                      <div class="tab__btn__image__1"></div>
+
+                      <p class="tab__btn__name">Delivery within<br>1 business day</p>   
+                  </label>
+
+                  <input type="radio" name="tabs" id="pseudo__btn__2">
+                  <label class="tab__btn" for="pseudo__btn__2">
+                      <div class="tab__btn__image__2"></div>
+
+                      <p class="tab__btn__name">Basic 1 year<br>warranty</p>
+                  </label>
+
+                  <input type="radio" name="tabs" id="pseudo__btn__3">
+                  <label class="tab__btn" for="pseudo__btn__3">
+                      <div class="tab__btn__image__3"></div>
+
+                      <p class="tab__btn__name">After sales<br>support</p>
+                  </label>
+
+                  <input type="radio" name="tabs" id="pseudo__btn__4" checked>
+                  <label class="tab__btn" for="pseudo__btn__4">
+                      <div class="tab__btn__image__4"></div>
+
+                      <p class="tab__btn__name">Up to 40 miles<br>per charge</p>
+                  </label>
+
+                  <div class="tabs__content" id="tab__content__1">
+                      <div class="tab__content">
+                        <div class="tab__content__item">
+                          <h3 class="tab__content__head">We are in <br>Los Angeles, CA</h3>
+  
+                          <p class="tab__content__text">Free California 1 day shipping.<br>US Free Shipping 3-5 Days</p>
+                        </div>
+                      </div>
+  
+                      <div  class="tab__content__image">
+                        <img src="./images/tabs/BlackMap-USA-states.png" alt="BlackMap-USA-states">
+                      </div>
+                  </div>
+
+                  <div class="tabs__content" id="tab__content__2">
+                      <div class="tab__content">
+                        <div class="tab__content__item">
+                          <h3 class="tab__content__head">One year<br>manufacturer's warranty</h3>
+  
+                          <p class="tab__content__text">The basic warranty is 1 year.<br>You can also extend the warranty up to 4 years.</p>
+                        </div>
+  
+                      </div>
+  
+                      <div  class="tab__content__image">
+                        <img src="./images/tabs/1_day.png" alt="1_day">
+                      </div>
+                  </div>
+
+                  <div class="tabs__content" id="tab__content__3">
+                      <div class="tab__content">
+                        <div class="tab__content__item">
+                          <h3 class="tab__content__head">After Sales<br>Support</h3>
+  
+                          <p class="tab__content__text">If you have any difficulties with your kickscooter, our specialists will contact you within 15 minutes</p>
+                        </div>
+  
+                      </div>
+  
+                      <div  class="tab__content__image">
+                        <img src="./images/tabs/after_sales_support.png" alt="after_sales_support">
+                      </div>
+                  </div>
+              
+                  <div class="tabs__content" id="tab__content__4">
+                      <div class="tab__content">
+                        <div class="tab__content__item">
+                          <h3 class="tab__content__head">Up to 40 miles of range<br> on a single charge</h3>
+  
+                          <p class="tab__content__text">With a range of up to 40 miles, the longest range on the market, and a 20˚uphill climbing angle, the KickScooter MAX allows you to ride from San Francisco Bay Area to Palo Alto on a single charge.</p>
+                        </div>
+                      </div>
+  
+                      <div  class="tab__content__image">
+                        <img src="./images/tabs/40_miles.png" alt="40_miles">
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+            <section class="packing__list-bg">
               <div  class="packing__list">
                 <div class="packing__list-video">
                   <h2 class="packing__list-head">Packing List</h2>
@@ -324,16 +356,16 @@
                   <div class="equipment__bg">
                   </div>
   
-                  <img class="equipment__image" src="./images/equipment.png">
+                  <img class="equipment__image" src="./images/equipment.png" alt="equipment">
                 </div>
               </div>
-            </div>
+            </section>
 
-            <div class="accessories">
+            <section class="accessories">
               <h2 class="accessories__head">Accessories</h2>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/NineboT Engine Speaker.png">
+                <img src="./images/Accessories/NineboT Engine Speaker.png" alt="NineboT Engine Speaker">
 
                 <h3 class="accessories__item__head">NineboT <br>Engine Speaker</h3>
 
@@ -345,7 +377,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Extension Rod.png">
+                <img src="./images/Accessories/Extension Rod.png" alt="Extension Rod">
 
                 <h3 class="accessories__item__head">Extension<br> Rod</h3>
 
@@ -357,7 +389,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Segway Protective Gear Set.png">
+                <img src="./images/Accessories/Segway Protective Gear Set.png" alt="Segway Protective Gear Set">
 
                 <h3 class="accessories__item__head">Segway Protective<br> Gear Set</h3>
 
@@ -369,7 +401,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Ninebot Leisure Backpack.png">
+                <img src="./images/Accessories/Ninebot Leisure Backpack.png" alt="Ninebot Leisure Backpack">
 
                 <h3 class="accessories__item__head">Ninebot Leisure<br> Backpack</h3>
 
@@ -381,7 +413,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Segway External Battery.png">
+                <img src="./images/Accessories/Segway External Battery.png" alt="Segway External Battery">
 
                 <h3 class="accessories__item__head">Segway External<br> Battery</h3>
 
@@ -393,7 +425,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Segway Charger.png">
+                <img src="./images/Accessories/Segway Charger.png" alt="Segway Charger">
 
                 <h3 class="accessories__item__head">Segway<br> Charger</h3>
 
@@ -405,7 +437,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Segway Scooter Bag.png">
+                <img src="./images/Accessories/Segway Scooter Bag.png" alt="Segway Scooter Bag">
 
                 <h3 class="accessories__item__head">Segway <br> Scooter Bag</h3>
 
@@ -417,7 +449,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Segway Phone Holder.png">
+                <img src="./images/Accessories/Segway Phone Holder.png" alt="Segway Phone Holder">
 
                 <h3 class="accessories__item__head">Segway<br> Phone Holder</h3>
 
@@ -429,7 +461,7 @@
               </div>
 
               <div class="accessories__item">
-                <img src="./images/Accessories/Segway Seat.png">
+                <img src="./images/Accessories/Segway Seat.png" alt="Segway Seat">
 
                 <h3 class="accessories__item__head">Segway <br>Scooter Seat</h3>
 
@@ -443,66 +475,79 @@
               <div class="accessories__btn">
                 <button class="btn__see__more">SEE MORE</button>
               </div>
-            </div>
+            </section>
 
-            <div class="impressive__features__bg"></div>
+            <section class="impressive__features__bg"></section>
 
-            <div class="impressive__features__bg-bottom">
+            <section class="impressive__features__bg-bottom">
               <div class="impressive__features">
                 <h2 class="impressive__features__head">IMPRESSIVE FEATURES</h2>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Pneumatic Tires.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Pneumatic Tires.png" alt="Pneumatic Tires">
                 </div>
   
                <div class="impressive__features__item">
-                <img src="./images/impressivefeatures/front led lights.png">
+                <img class="impressive__features__item__image" src="./images/impressivefeatures/front led lights.png" alt="Front led lights">
                </div>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Max Speed.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Max Speed.png" alt="Max Speed">
                 </div>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Max Range.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Max Range.png" alt="Max Range">
                 </div>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Hill Grade.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Hill Grade.png" alt="Hill Grade">
                 </div>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Water-Resistant.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Water-Resistant.png" alt="Water-Resistant">
                 </div>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Fast Charging.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Fast Charging.png" alt="Fast Charging">
                 </div>
   
                 <div class="impressive__features__item">
-                  <img src="./images/impressivefeatures/Battery.png">
+                  <img class="impressive__features__item__image" src="./images/impressivefeatures/Battery.png" alt="Battery">
                 </div>              
               </div>
-            </div>
+            </section>
 
-            <div class="kickscooter__overview">
-              <h2 class="kickscooter__overview__head">KickScooter overview <br> SEGWAY Ninebot Kickscooter MAX </h2>
+            <section class="kickscooter__overview">
+              <h2 class="kickscooter__overview__head">KickScooter overview</h2>
+              <h2 class="kickscooter__overview__subhead">SEGWAY Ninebot Kickscooter MAX</h2>
 
-              <img src="./images/kickscooter__overview.png">
-            </div>
+              <img  class="kickscooter__overview__image" src="./images/kickscooter__overview.png" alt="Kickscooter__overview">
 
-            <div class="smart__battery__bg">
+              <div class="kickscooter__overview__mobile">
+                <img  class="kickscooter__overview__image__mobile" src="./images/kickscooter__overview_mobile.png" alt="Kickscooter__overview_mobile">
+              </div>
+            </section>
+
+            <section class="smart__battery__bg">
               <div class="smart__battery">
-                <div>
+                <div class="smart__battery__bg__mobile">
+                  <img class="smart__battery__image__mobail" src="./images/smart__battery_mobile.png" alt="smart__battery_mobile">
+                </div>
+
+                <div class="smart__battery__text">
                   <h2 class="smart__battery__head">Smart battery Management system (Smart-BMS)</h2>
 
                   <p class="smart__battery__content">The Smart-BMS closely monitors the battery status with multiple protection mechanisms to ensure the battery durability</p>
                 </div>   
               </div>
-            </div>
+            </section>
 
-            <div class="dual__braking__system__bg">
+            <section class="dual__braking__system__bg">
               <div class="dual__braking__system">
+                <div class="dual__braking__system__bg__mobile">
+                  <img class="dual__braking__system__bg__mobile__image" src="./images/dual__braking__system_mobail.png" alt="dual__braking__system_mobail">
+                </div>
+
                 <div class="dual__braking__system__item">
                   <h2 class="dual__braking__system__head">Dual Braking System</h2>
   
@@ -511,10 +556,14 @@
                   <p  class="dual__braking__system__content">*IPX5 water resistance</p>
                 </div> 
               </div>
-            </div>
+            </section>
 
-            <div class="front__light__bg">
+            <section class="front__light__bg">
               <div class="front__light">
+                <div class="front__light__bg__mobile">
+                  <img class="front__light__bg__mobile__image" src="./images/front__light_mobile.png" alt="front__light_mobile">
+                </div>
+
                 <div class="front__light__item">
                   <h2 class="front__light__head">Built-In Front<br>LED Light</h2>
 
@@ -523,96 +572,547 @@
                   <p class="front__light__content2">*Disclaimer: for your safety, please try not to ride at night</p>
                 </div> 
               </div>
-            </div>
+            </section>
 
-            <div class="folding__mechanism">
-              <div  class="folding__mechanism__item">
-                <h2 class="folding__mechanism__head">One-step Folding Mechanism</h2>
+            <section class="folding__mechanism">
+              <h2 class="folding__mechanism__head">One-step Folding Mechanism</h2>
 
-                <p class="folding__mechanism__content">Ninebot KickScooter MAX can be easily folded and carried around in 3 seconds.</p>
+              <p class="folding__mechanism__content">Ninebot KickScooter MAX can be easily folded and carried around in 3 seconds.</p>
 
-                <img src="./images/Folding Mechanism.png">
-              </div>
-            </div>
+              <img class="folding__mechanism__image" src="./images/Folding Mechanism.png" alt="Folding Mechanism">
+            </section>
 
-            <div class="regenerative__brake__bg">
+            <section class="regenerative__brake__bg">
               <div class="regenerative__brake">
+                <div class="regenerative__brake__bg__mobile">
+                  <img class="regenerative__brake__bg__mobile__image" src="./images/Regenerative_Brake_mobile.png" alt="Regenerative_Brake_mobile">
+                </div>
+
                 <div class="regenerative__brake__item">
                   <h2 class="regenerative__brake__head">Regenerative Brake for Power Recycle</h2>
 
                   <p class="regenerative__brake__content">The innovative regenerative brake system turns Ninebot KickScooter MAX into an electric vehicle powered by electricity and recycled energy from riding. Energy will be collected from regenerative braking and distributed when you need a boost.</p>
                 </div> 
               </div>
-            </div>
+            </section>
 
-            <div class="fast__charging">
-              <img src="./images/Fast_Charging.png">
+            <section class="fast__charging">
+              <div class="fast__charging__images">
+                <img class="fast__charging__image" src="./images/Fast_Charging.png" alt="Fast_Charging">
 
-              <div  class="fast__charging__item">
-                <h2  class="fast__charging__head">Easy One Cord Fast Charging</h2>
-
-                <p  class="fast__charging__content">The built-in charger lets riders recharge it easily when on the go without having to carry along a bulky charging adapter. 3A fast charge will give Ninebot KickScooter MAX a full charge in 6 hours.</p>
+                <img class="fast__charging__image__mobile" src="./images/Fast_Charging_mobile.png" alt="Fast_Charging_mobile">
               </div>
-            </div>
 
-            <div class="riding__modes__bg">
+              <div class="fast__charging__item">
+                <h2 class="fast__charging__head">Easy One Cord Fast Charging</h2>
+
+                <p class="fast__charging__content">The built-in charger lets riders recharge it easily when on the go without having to carry along a bulky charging adapter. 3A fast charge will give Ninebot KickScooter MAX a full charge in 6 hours.</p>
+              </div>
+            </section>
+
+            <section class="riding__modes__bg">
               <div class="riding__modes">
                 <div class="riding__modes__item">
                   <h2 class="riding__modes__head">3 Riding Modes</h2>
 
-                <p class="riding__modes__content">Eco, Standard, and Sports modes can be directly accessed by the intuitive LED dashboard, which also displays maintenance signals, power levels, Bluetooth connectivity and more.</p>
+                  <p class="riding__modes__content">Eco, Standard, and Sports modes can be directly accessed by the intuitive LED dashboard, which also displays maintenance signals, power levels, Bluetooth connectivity and more.</p>
+                </div>
+
+                <div class="riding__modes__bg__mobile">
+                  <img class="riding__modes__bg__mobile__image" src="./images/3_Riding_Modes.png" alt="3_Riding_Modes">
                 </div>
               </div>
-            </div>
+            </section>
 
-            <div class="download__manual__bg">
+            <section class="download__manual__bg">
               <div class="download__manual">
-                
-                <div  class="download__manual__content">
-                  <img  class="download__manual__image" src="./images/download__manual.png">
 
-                  <h2 class="download__manual__head">Download <br>manual</h2>
-
-                  <div class="download__manual__items">
-                    <div class="manual__content__item">
-                      <img src="./images/Assembly and preparation.png" alt="Assembly and preparation">
-
-                      <p>Assembly and<br>preparation for the trip</p>
+                <div class="download__manual__borderbox">
+                  <div class="download__manual__images">
+                    <img class="download__manual__image" src="./images/download__manual.png" alt="download__manual">
+                  </div>
+                  
+                  <div class="download__manual__content">
+                    <h2 class="download__manual__head">Download manual</h2>
+  
+                    <div class="download__manual__items">
+                      <div class="manual__content__item">
+                        <img src="./images/Assembly and preparation.png" alt="Assembly and preparation">
+  
+                        <p class="manual__content__item__text">Assembly and<br>preparation for the trip</p>
+                      </div>
+  
+                      <div class="manual__content__item">
+                        <img src="./images/How to charge.png" alt="How to charge">
+  
+                        <p class="manual__content__item__text">How to charge <br>a scooter</p>
+                      </div>
+                      
+                      <div class="manual__content__item">
+                        <img src="./images/How to ride.png" alt="How to ride">
+  
+                        <p class="manual__content__item__text">How to ride <br>properly</p>
+                      </div>
                     </div>
+  
+                    <button class="download__manual__btn">Download manual
+                      <img class="download__manual__btn__image" src="./images/Download.png" alt="Download">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-                    <div class="manual__content__item">
-                      <img src="./images/How to charge.png" alt="How to charge">
+            <section class="compare__specifications">
+              <div  class="compare__specifications__head">
+                <h2 class="compare__specifications__subhead">Compare specifications</h2>
 
-                      <p>How to charge <br>a scooter</p>
-                    </div>
-                    
-                    <div class="manual__content__item">
-                      <img src="./images/How to ride.png" alt="How to ride">
+                <p>Add model to compare</p>
+              </div>
 
-                      <p>How to ride <br>properly</p>
-                    </div>
+              <div class="compare__specifications__table">
+                <div class="compare__specifications__table__column">
+                  <div class="c__s__table__scooter__image">
+                    <img src="./images/Compare_specifications/Kickscooter_E22.png" alt="Kickscooter_E22">
                   </div>
 
-                  <button class="download__manual__btn">Download manual
-                    <img src="./images/Download.png" alt="Download">
-                  </button>
+                  <div class="c__s__table__cell__model">NiNinebot <br> Kickscooter E22</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Max_speed.png" alt="Max_speed-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Max. speed
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">20 км/ч</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Range_(miles).png" alt="Range_(miles)-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Range (miles)
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">22 км</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Battery_Capacity.png" alt="Battery_Capacity-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Battery Capacity
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">5100 mAh</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Net_Weight.png" alt="Net_Weight-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Net Weight
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">13.5 кг</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Payload.png" alt="Payload-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Payload
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">25 кг - 100 кг</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Chargin_Time.png" alt="Chargin_Time-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Chargin Time
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">3.5 часа</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Number_of_Batteries.png" alt="Number_of_Batteries-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Number of Batteries
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">1 встроенная</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Motor_power.png" alt="Motor_power-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Motor power
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">Номинальная 300W</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Power_Output.png" alt="Power_Output-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Power Output
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">71W (0.071kW)</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Max_Incline.png" alt="Max_Incline-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Max. Incline
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">15%</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Shock_Absorption.png" alt="Shock_Absorption-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Shock Absorption
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Safety.png" alt="Safety-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Safety
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">Задний LED-фонарь</div>
+
+                  <div class="c__s__table__subhead">
+                    <div class="c__s__table__subhead__icon">
+                      <img src="./images/Compare_specifications/icon/Atmosphere_Light.png" alt="Atmosphere_Light-icon">
+                    </div>
+
+                    <p class="c__s__table__subhead__description">
+                      Atmosphere Light
+                    </p>
+                  </div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="compare__specifications__table__cell__price">$599.99</div>
+
+                  <bottom class="c__s__table__cell__price__buy__button">BUY IT NOW</bottom>
+                </div>
+
+                <div class="compare__specifications__table__column second">
+                  <div class="c__s__table__scooter__image">
+                    <img src="./images/Compare_specifications/Kickscooter_ES1l.png" alt="Kickscooter_ES1l">
+                  </div>
+
+                  <div class="c__s__table__cell__model">NiNinebot <br> Kickscooter ES1l</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">20 км/ч</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">22 км</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">184 wAh</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">10.3 кг</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">25 кг - 100 кг</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">6 часов</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">1 встроенная</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">Номинальная 250W</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">42W (0.042kW) </div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">7%</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">Передняя</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="c__s__table__subhead">
+                  </div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="compare__specifications__table__cell__price">$599.99</div>
+
+                  <bottom class="c__s__table__cell__price__buy__button">BUY IT NOW</bottom>
+                </div>
+
+                <div class="compare__specifications__table__column third">
+                  <div class="c__s__table__scooter__image">
+                    <img src="./images/Compare_specifications/Kickscooter_Air_T15.png" alt="Kickscooter_Air_T15">
+                  </div>
+
+                  <div class="c__s__table__cell__model">NiNinebot <br> Kickscooter Air T15</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">20 км/ч</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">12 км</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">4000 mAh</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">10.5 кг.</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">30 кг - 100 кг</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">4 часа</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">1 встроенная</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">Номинальная 300W</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">71W (0.071kW)</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">15%</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">Задний LED-фонарь</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="compare__specifications__table__cell__price">$599.99</div>
+
+                  <bottom class="c__s__table__cell__price__buy__button">BUY IT NOW</bottom>
+                </div>
+
+                <div class="compare__specifications__table__column fourth">
+                  <div class="c__s__table__scooter__image">
+                    <img src="./images/Compare_specifications/Kickscooter_f30.png" alt="Kickscooter_f30">
+                  </div>
+
+                  <div class="c__s__table__cell__model">NiNinebot <br> Kickscooter f30</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">25 км/ч</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">30 км</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">7650 mAh</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">15.1 kg</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">30 кг - 120 кг</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">5 часов</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">1 встроенная</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">Номинальная 300W</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">71W (0.071kW)</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">15%</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">Задний LED-фонарь</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+
+                  <div class="compare__specifications__table__cell__price">$599.99</div>
+
+                  <bottom class="c__s__table__cell__price__buy__button">BUY IT NOW</bottom>
+                </div>
+
+                <div class="compare__specifications__table__column add__model">
+                  <bottom class="c__s__table__cell__price__buy__button add__model__btn">+</bottom>
+
+                  <div class="c__s__table__cell__model add__model__content">ADD model</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">--</div>
+
+                  <div class="c__s__table__subhead"></div>
+
+                  <div class="compare__specifications__table__cell">----</div>
+                </div>
+
+                <div class="compare__specifications__gradient"></div>
+      
+                <div class="button__right">
+                  <button class="reviews__btn">></button>
                 </div>
               </div>
-            </div>
+            </section>
 
-            <div class="as__a__gift">
+            <section class="as__a__gift">
               <div class="as__a__gift__borger">
-                <img  class="as__a__gift__image" src="./images/as__a__gift.png" alt="Gear Set as a gift">
+                <div  class="as__a__gift__images">
+                  <img  class="as__a__gift__image" src="./images/as__a__gift.png" alt="Gear Set as a gift">
+                </div>
 
                 <div class="as__a__gift__item">
                   <h2 class="as__a__gift__head">Segway Protective Gear Set as a gift</h2>
 
-                  <p class="as__a__gift__content">The cost of a protection kit when buying <br>a scooter is $ 0 instead of $ $29.99</p>
+                  <p class="as__a__gift__content">The cost of a protection kit when buying a scooter is $ 0 instead of $ $29.99</p>
                 </div>
               </div>
-            </div>
+            </section>
 
-            <div class="reviews__bg">
+            <section class="reviews__bg">
               <div class="reviews">
                 <h2 class="reviews__head"> Reviews</h2>
 
@@ -620,23 +1120,25 @@
                     <button class="reviews__btn"><</button>
 
                     <div class="reviews__content">
-                      <img src="./images/reviews/Reviews_1.png" alt="Reviews">
+                      <img class="reviews__content__image" src="./images/reviews/Reviews_1.png" alt="Reviews">
+                    </div>
+
+                    <div class="reviews__content ">
+                      <img class="reviews__content__image" src="./images/reviews/Reviews_2.png" alt="Reviews">
+
+                      <div class="reviews__gradient"></div>
                     </div>
 
                     <div class="reviews__content">
-                      <img src="./images/reviews/Reviews_2.png" alt="Reviews">
-                    </div>
-
-                    <div class="reviews__content">
-                      <img src="./images/reviews/Reviews_3.png" alt="Reviews">
+                      <img class="reviews__content__image" src="./images/reviews/Reviews_3.png" alt="Reviews">
                     </div>
 
                     <button class="reviews__btn">></button>
                 </div>
               </div>
-            </div>
+            </section>
 
-            <div class="control__from__smartphone">
+            <section class="control__from__smartphone">
               <h2 class="control__from__smartphone__head">Control from your smartphone</h2>
 
               <p class="control__from__smartphone__text">
@@ -647,6 +1149,12 @@
               </p>
 
               <div  class="control__from__smartphone__content">
+                <div class="Control__from__smartphone__image">
+                  <img src="./images/Control_from_smartphone/Smartphone.png" alt="Smartphone">
+
+                  <div class="control__from__smartphone__gradient"></div>
+                </div>
+
                 <div class="control__from__smartphone__ponel__tools">
                   <div class="ponel__tools">
                     <img src="./images/Control_from_smartphone/Anti-theft_protection.png" alt="Anti-theft_protection">
@@ -668,92 +1176,94 @@
                     <img src="./images/Control_from_smartphone/GP.png" alt="Google_Play">
                   </div>
                 </div>
-
-                <div class="Control__from__smartphone__image">
-                  <img src="./images/Control_from_smartphone/Smartphone.png" alt="Smartphone">
-                </div>
               </div>
-            </div>
+            </section>
 
-            <div class="segway__ninebot__2__bg">
+            <section class="segway__ninebot__2__bg">
               <div class="segway__ninebot__2">
-                <div class="in__stock">В наличии</div>
+                <div class="in__stock3">В наличии</div>
   
                 <div class="segway__ninebot__2__head">
                   SEGWAY NINEBOT KICKSCOOTER MAX
                 </div>
   
                 <div class="segway__ninebot__2__content">
-                  <div class="price__list">
-                    <div class="extend">
-                      Add an extended warranty from <b>Extend</b>
-                    </div>
-  
-                    <div class="warranty">
-                      <div class="warranty__period">1 Year - $139</div>
-  
-                      <div class="warranty__period">2 Year - $209</div>
-  
-                      <div class="warranty__period">3 Year - $279</div>
-                    </div>
-  
-                    <div class="present">
-                      <div class="price">
-                        <div class="full__price">$1049.99</div>
-  
-                        <div class="sale">$949.99</div>
+                  <div class="buying">
+                    <div class="price__list">
+                      <div class="extend">
+                        Add an extended warranty from <b>Extend</b>
                       </div>
-                      
-                      <div  class="protective__gear">
-                        Segway Protective Gear Set as a gift
+    
+                      <div class="warranty">
+                        <div class="warranty__period">1 Year - $139</div>
+    
+                        <div class="warranty__period">2 Year - $209</div>
+    
+                        <div class="warranty__period">3 Year - $279</div>
                       </div>
-  
-                      <div class="protective__gear-image">
-                        <img src="./images/Protective Gear.png">
+    
+                      <div class="present">
+                        <div class="price">
+                          <div class="full__price">$1049.99</div>
+    
+                          <div class="sale">$949.99</div>
+                        </div>
+                        
+                        <div  class="protective__gear">
+                          Segway Protective Gear Set as a gift
+                        </div>
+    
+                        <div class="protective__gear-image">
+                          <img src="./images/Protective Gear.png" alt="Protective Gear">
+                        </div>
                       </div>
+    
+                      <div class="buy__add">
+                        <button class="btn buy">BUY IT NOW</button>
+                        <button class="btn add">ADD TO CART</button>
+                      </div>
+    
                     </div>
-  
-                    <div class="buy__add">
-                      <button class="btn buy">BUY IT NOW</button>
-                      <button class="btn add">ADD TO CART</button>
+    
+                    <div class="segway__ninebot__text">
+                      <span class="segway__ninebot__text-left">Payment Methods: </span>
+                      <span class="segway__ninebot__text-center">Starting at $55/mo with </span>
+                      <img src="./images/Vector a.png" alt="amazon"> <b>.</b>
+                      <span class="segway__ninebot__text-right"> Prequalify now</span>
                     </div>
-  
+    
+                    <div class="payment__methods">
+                      <img src="./images/payment methods/amex.png" alt="payment__methods">
+                      <img src="./images/payment methods/pay.png" alt="payment__methods">
+                      <img src="./images/payment methods/b yellow.png" alt="payment__methods">
+                      <img src="./images/payment methods/b green.png" alt="payment__methods">
+                      <img src="./images/payment methods/d yellow.png" alt="payment__methods">
+                      <img src="./images/payment methods/o blue.png" alt="payment__methods">
+                      <img src="./images/payment methods/discover.png" alt="payment__methods">
+                      <img src="./images/payment methods/d brown.png" alt="payment__methods">
+                      <img src="./images/payment methods/diamond.png" alt="payment__methods">
+                      <img src="./images/payment methods/jsb.png" alt="payment__methods">
+                      <img src="./images/payment methods/L.png" alt="payment__methods">
+                      <img src="./images/payment methods/mc.png" alt="payment__methods">
+                      <img src="./images/payment methods/pp.png" alt="payment__methods">
+                      <img src="./images/payment methods/$.png" alt="payment__methods">
+                      <img src="./images/payment methods/v.png" alt="payment__methods">
+                      <img src="./images/payment methods/visa.png" alt="payment__methods">
+                    </div>
                   </div>
-  
-                  <div class="segway__ninebot__text">
-                    <span class="segway__ninebot__text-left">Payment Methods: </span>
-                    <span class="segway__ninebot__text-center">Starting at $55/mo with</span>
-                    <img src="./images/Vector a.png" alt="amazon"> <b>.</b>
-                    <span class="segway__ninebot__text-right">Prequalify now</span>
+                  
+                  <div class="bg__images">    
+                    <img  class="bg__image" src="./images/scooters/KickScooter_2.png" alt="KickScooter">
                   </div>
-  
-                  <div class="payment__methods">
-                    <img src="./images/payment methods/amex.png" alt="">
-                    <img src="./images/payment methods/pay.png" alt="">
-                    <img src="./images/payment methods/b yellow.png" alt="">
-                    <img src="./images/payment methods/b green.png" alt="">
-                    <img src="./images/payment methods/d yellow.png" alt="">
-                    <img src="./images/payment methods/o blue.png" alt="">
-                    <img src="./images/payment methods/discover.png" alt="">
-                    <img src="./images/payment methods/d brown.png" alt="">
-                    <img src="./images/payment methods/diamond.png" alt="">
-                    <img src="./images/payment methods/jsb.png" alt="">
-                    <img src="./images/payment methods/L.png" alt="">
-                    <img src="./images/payment methods/mc.png" alt="">
-                    <img src="./images/payment methods/pp.png" alt="">
-                    <img src="./images/payment methods/$.png" alt="">
-                    <img src="./images/payment methods/v.png" alt="">
-                    <img src="./images/payment methods/visa.png" alt="">
+
+                  <div class="bg__images__mobile">    
+                    <img  class="bg__image" src="./images/scooters/KickScooter_2_mobile.png" alt="KickScooter">
                   </div>
                 </div>
               </div>
+            </section>
 
-              <img class="bg__image" src="./images/scooters/Box.png" alt="Box">
-
-              <img  class="bg__image" src="./images/scooters/KickScooter_2.png" alt="KickScooter">
-            </div>
-
-            <div class="other__models">
+            <section class="other__models">
               <h2 class="other__models__head">OTHER MODELS</h2>
 
               <p class="other__models__content">Check out the entire line of Segway scooters</p>
@@ -843,18 +1353,20 @@
                   <button class="not__found__btn">SEND</button>
                 </div>
               </div>
-            </div> 
+            </section>
         </main>
 
         <footer class="footer">
           <div class="footer__list">
             <div class="footer__logo">
-              <img src="./images/logo_footer.png" alt="logo">
+              <img class="footer__logo__image" src="./images/logo_footer.png" alt="logo">
             </div>
 
             <ul class="footer__right">
               <li class="footer__right-item"><a class="footer__right-tel" href="tel:+18887777777">+1 (888) 777-77-77</a></li>
+
               <li class="footer__right-item">2637 Fairfax Ave Culver City, CA 90232</li>
+
               <li class="footer__right-item">Segway  California © 2017</li> 
             </ul>
           </div>
